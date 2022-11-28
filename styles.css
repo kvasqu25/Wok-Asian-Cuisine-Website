@@ -51,10 +51,6 @@ table {
 /*****END RESERT******/
 /*****END RESERT******/
 /*****END RESERT******/
-@media screen 
-  and (min-device-width: 1200px) and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
 
 *{
     font-family: verdana, arial, sans-serif;
@@ -64,6 +60,7 @@ table {
 body{
     background-color: black;
     margin: 0%;
+	width: 1280px;
 }
 h1 a{
 	text-decoration: none;
@@ -100,7 +97,7 @@ h1{
 main img{
 	width: 1280px;
 	height: auto;
-	margin-left: 35px;
+	
 }
 
 
@@ -145,8 +142,7 @@ nav a:hover {
 	padding-bottom: 15px;
 	font-size: xx-large;
 	color: beige;
-	width: 1280px;
-	margin-left: 35px;
+
 }
 #intro a{
 	font-size: small;
@@ -166,8 +162,7 @@ nav a:hover {
 	padding-bottom: 15px;
 	color: beige;
 	background-color: #333;
-	width: 1280px;
-	margin-left: 35px;
+	
 }
 #cater p{
 	padding-top: 5px;
@@ -223,8 +218,6 @@ footer{
 	color: beige;
     padding: 20px;
 	margin-top: 1cm;
-	width: 1280px;
-	margin-left: 35px;
 
 }
 
@@ -299,21 +292,21 @@ input[type=submit]:hover{
 }
 input[type=radio] + label {
 	cursor: pointer;
- display: flex;
- align-items: center;
+	display: flex;
+	align-items: center;
 }
 input[type=radio] {
 	appearance: none;
 	margin: 0;
- padding: 0;
- border: none;
- font-size: 0;
- border-radius: 0;
+	padding: 0;
+	border: none;
+	font-size: 0;
+	border-radius: 0;
 }
 input[type=radio] + label::before {
 	content: "\00a0";  
- font-size: 2.25em;
- line-height: 0.65;
+	font-size: 2.25em;
+	line-height: 0.65;
 	border-radius: 50%;
 	display: inline-block;  
 	height: 20px;
@@ -322,7 +315,7 @@ input[type=radio] + label::before {
 	margin-right: 16px;
 	border: 2px solid white;   
 	background-color: #fff;
- padding-bottom: 2px;
+	padding-bottom: 2px;
 }
 
 input[type=radio]:checked + label::before {
@@ -332,7 +325,7 @@ input[type=radio]:checked + label::before {
 }
 
 input[type=radio]:focus{
- outline: none;
+	outline: none;
 }
 
 input[type=radio]:focus + label::before {
